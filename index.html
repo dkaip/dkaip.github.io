@@ -13,6 +13,8 @@ Hopefully, some of them will be useful to you.  Here they are in short form.
     <li><a href="#VAPI_H2_1">Java Bindings</a></li>
     <li><a href="#VAPI_H2_2">Example Applications</a></li>
   </ul>
+  <li><a href="#Java3D_H1">Java3D</a></li>
+  <li><a href="#JWayland_H1">Wayland for Java</a></li>
   <li><a href="#SEMISECS_H1">SECS Tools</a></li>
   <ul>
     <li><a href="#SEMISECS_H2_1">Station Controller</a></li>
@@ -57,16 +59,34 @@ This project contains a number of working examples that use the <b>jvulkan</b> l
 </tr>
 </table>
 
+<h1 id="Java3D_H1">Java 3D</h1>
+This project is the Java3D that was available a long time ago.  I have worked on it to bring it to a more
+modern state.  Things like creating Java <code>enum</code>s instead of using <code>int</code>s for all 
+of the data items that should have been <code>enum</code>s in the first place, but, at the time Java did not
+have an <code>enum> type.  In addition the inner working have been somewhat unscrambled to make it much easier
+to follow what is going on in the code.  In addition, is just runs multithreaded now instead of having the option
+not to.  The last thing I am working on / will work on is to make is able to use Vulkan® as its interface to a
+graphics card.
+
+<h1 id="JWayland_H1">Java Wayland Interface</h1>
+This project <b>jwayland</b> was created so that Wayland could be easily used in a Java application.  Mainly in
+order to get access to the events directly in a Java application. It is 
+partially working at this point.  I will need to finish it and probably have to create a Java interface to
+EGL as well in orderto be truely useful.
+
 <h1 id="SEMISECS_H1">SECS Tools</h1>
 This section contains references to projects that have relevence in the SEMI SECS domain.  If the words
 SEMI and SECS together don't mean anything to you these projects are probably not going to be of any interest to you.
 SEMI refers to &quot;http://www1.semi.org&quot; and SECS is short for &quot;SEMI Equipment Communications Standard&quot;.
 <h2 id="SEMISECS_H2_1">Station Controller</h2>
+A program that can be used in the development and debugging of equipment interfaces in the semiconductor shop floor 
+environment.  It may also be used to construct a full flegded station controller if you application is not very 
+complicated.
 <table>
 <tr>
 <td><b>sc_open</b></td>
 <td>https::/dkaip/sc_open</td>
-<td>The Java version of the Vulkan® API.</td>
+<td>Station Controller</td>
 </tr>
 </table>
 <h2 id="SEMISECS_H2_2">JavaSECSTools</h2>
