@@ -31,10 +31,15 @@ Java bindings to the Vulkan® graphics API
 </h1>
 This project was created to provide Java programs access to the Vulkan® SDK available from LunarG.  This access
 is provided in a much more Java friendly manner than other available options.
+<p>
+Some new additions now allow you to use the Java Vulkan Memory Allocator in
+a jvulkan application.  These additions provide a Java interface to the
+Vulkan Memory Allocator (https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator) that
+is written in C++.
 <h2 id="VAPI_H2_1">
 Java Bindings
 </h2>
-The following two projects:
+The following four projects:
 <table>
 <tr>
 <td><b>jvulkan</b></td>
@@ -45,6 +50,16 @@ The following two projects:
 <td><b>jvulkan-natives-Linux-x86_64</b></td>
 <td>https:://github.com/dkaip/jvulkan-natives-Linux-x86_64</td>
 <td>A native library required to use <b>jvulkan</b>.</td>
+</tr>
+<tr>
+<td><b>jvma</b></td>
+<td>https:://github.com/dkaip/jvma</td>
+<td>The Java version of the Vulkan® Memory Allocator.</td>
+</tr>
+<tr>
+<td><b>jvma-natives-Linux-x86_64</b></td>
+<td>https:://github.com/dkaip/jvma-natives-Linux-x86_64</td>
+<td>A native library required to use <b>jvma</b>.</td>
 </tr>
 </table>
 provide a way for Java programmers to create applications that use the Vulkan® drivers available for their graphics card(s).
