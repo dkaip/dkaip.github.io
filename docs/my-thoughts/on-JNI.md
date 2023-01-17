@@ -4,7 +4,7 @@ title: On JNI
 parent: My Thoughts
 ---
 
-# Vulkan&reg;
+# JNI;
 {: .no_toc }
 
 ## Table of contents

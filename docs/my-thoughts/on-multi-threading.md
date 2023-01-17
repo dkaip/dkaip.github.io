@@ -4,7 +4,7 @@ title: On using Multi Threading
 parent: My Thoughts
 ---
 
-# Vulkan&reg;
+# Multithreading
 {: .no_toc }
 
 ## Table of contents
