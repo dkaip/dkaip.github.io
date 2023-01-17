@@ -1,13 +1,18 @@
 title: dkaip.github.io
 description: A starter template for a Jeykll site using the Just the Docs theme!
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: https://just-the-docs.github.io
+
+permalink: pretty
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
+footer_content: "Copyright &copy; 2023 Douglas Kaip"
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
 color_scheme: dark
