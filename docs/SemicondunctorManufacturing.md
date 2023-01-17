@@ -22,14 +22,14 @@ These projects are only really appropriate for those that are working primarily 
 ---
 
 ## CSharpSECSTools
-This project is a collection of API libraries and utilities, written in the programming language C\#, that are useful in the creation of software that communicates with the equipment that is typically found on the shop floor in a Semiconductor Manufacturing facility (a FAB).  This equipment typically communicates using the SEMI&reg; SECS-II protocol over a SECS-I (RS-232) link or, more likely, an HSMS link (network).
+This project is a collection of API libraries and utilities, written in the C\# programming language, that are useful in the creation of software that communicates with the equipment that is typically found on the shop floor in a Semiconductor Manufacturing facility (a FAB).  This equipment typically communicates using the SEMI&reg; SECS-II protocol over a SECS-I (RS-232) link or, more likely, an HSMS link (network).
 {: .fs-5 .fw-300 }
 
 Find it here <a href="https://github.com/dkaip/CSharpSECSTools">https://github.com/dkaip/CSharpSECSTools</a>.
 {: .fs-5 .fw-300 }
 
 ## JavaSECSTools
-This project is a collection of API libraries and utilities, written in the programming language Java, that are useful in the creation of software that communicates with the equipment that is typically found on the shop floor in a Semiconductor Manufacturing facility (a FAB).  This equipment typically communicates using the SEMI&reg; SECS-II protocol over a SECS-I (RS-232) link or, more likely, an HSMS link (network).
+This project is a collection of API libraries and utilities, written in the Java programming language, that are useful in the creation of software that communicates with the equipment that is typically found on the shop floor in a Semiconductor Manufacturing facility (a FAB).  This equipment typically communicates using the SEMI&reg; SECS-II protocol over a SECS-I (RS-232) link or, more likely, an HSMS link (network).
 {: .fs-5 .fw-300 }
 
 Find it here <a href="https://github.com/dkaip/JavaSECSTools">https://github.com/dkaip/JavaSECSTools</a>.
@@ -47,5 +47,4 @@ In addition it can be quite useful when needing to test certain operating scenar
 
 Find it here <a href="https://github.com/dkaip/sc_open">https://github.com/dkaip/sc_open</a>.
 {: .fs-5 .fw-300 }
-
 
