@@ -16,7 +16,7 @@ The first area may be of interest to those working in the domain of automating S
 **E37**, et al, these projects are probably not for you.
 {: .fs-5 .fw-300 }
 
-The second area has to do with the **Vulkan&reg;** API that comes from [The Kronos Group, Inc.](https://www.khronos.org)  The Vulkan&reg; API \"is a cross-platform industry standard enabling developers to target a wide range of devices with the same graphics API\".  If you are not trying to use the Vulkan&reg; API to access/operate/control your 3D graphics card you will probably not be interested in these projects.
+The second area has to do with the **Vulkan&reg;** API that comes from [The Khronos Group, Inc.](https://www.khronos.org)  The Vulkan&reg; API \"is a cross-platform industry standard enabling developers to target a wide range of devices with the same graphics API\".  If you are not trying to use the Vulkan&reg; API to access/operate/control your 3D graphics card you will probably not be interested in these projects.
 {: .fs-5 .fw-300 }
 
 Be sure and visit [https://github.com/dkaip](https://github.com/dkaip) to see the current projects available in the event this page is out of date.
