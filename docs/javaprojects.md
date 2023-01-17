@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Java Projects
-nav_order: 5
+nav_order: 7
 ---
 
 # Java Projects
