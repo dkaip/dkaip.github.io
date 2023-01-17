@@ -10,7 +10,7 @@ nav_order: 2
 These are some projects that provide APIs and or utilities that are useful when needing to produce automation software in the domain of Semiconductor Manufacturing.
 {: .fs-5 .fw-300 }
 
-These projects are only really appropriate for those that are working primarily in the realm of shop floor automation in the semiconductor industry. If you do not work in that industry or you are not familiar with the SEMI Standards **E4**, **E5**, **E30**, **E37**, et al., these projects are probably not for you.
+These projects are only really appropriate for those that are working primarily in the realm of shop floor automation in the semiconductor industry. If you do not work in that industry or you are not familiar with the SEMI&reg; Standards **E4**, **E5**, **E30**, **E37**, et al., these projects are probably not for you.
 {: .fs-5 .fw-300 }
 
 ## Table of contents
@@ -22,14 +22,14 @@ These projects are only really appropriate for those that are working primarily 
 ---
 
 ## CSharpSECSTools
-This project is a collection of API libraries and utilities, written in the programming language C\#, that are useful in the creation of software that communicates with the equipment that is typically found on the shop floor in a Semiconductor Manufacturing facility (a FAB).  This equipment typically communicates using the SEMI SECS-II protocol over a SECS-I (RS-232) link or, more likely, an HSMS link (network).
+This project is a collection of API libraries and utilities, written in the programming language C\#, that are useful in the creation of software that communicates with the equipment that is typically found on the shop floor in a Semiconductor Manufacturing facility (a FAB).  This equipment typically communicates using the SEMI&reg; SECS-II protocol over a SECS-I (RS-232) link or, more likely, an HSMS link (network).
 {: .fs-5 .fw-300 }
 
 Find it here <a href="https://github.com/dkaip/CSharpSECSTools">https://github.com/dkaip/CSharpSECSTools</a>.
 {: .fs-5 .fw-300 }
 
 ## JavaSECSTools
-This project is a collection of API libraries and utilities, written in the programming language Java, that are useful in the creation of software that communicates with the equipment that is typically found on the shop floor in a Semiconductor Manufacturing facility (a FAB).  This equipment typically communicates using the SEMI SECS-II protocol over a SECS-I (RS-232) link or, more likely, an HSMS link (network).
+This project is a collection of API libraries and utilities, written in the programming language Java, that are useful in the creation of software that communicates with the equipment that is typically found on the shop floor in a Semiconductor Manufacturing facility (a FAB).  This equipment typically communicates using the SEMI&reg; SECS-II protocol over a SECS-I (RS-232) link or, more likely, an HSMS link (network).
 {: .fs-5 .fw-300 }
 
 Find it here <a href="https://github.com/dkaip/JavaSECSTools">https://github.com/dkaip/JavaSECSTools</a>.

@@ -12,7 +12,7 @@ permalink: /
 From here you should be able to access and get more information about my public projects and my thoughts pertaining to certain topics. Hopefully, some of them will be of use to you.  My public projects are currently focused in two areas.  
 {: .fs-5 .fw-300 }
 
-The first area may be of interest to those working in the domain of automating Semiconductor Manufacturing facilities (via software).  If you are not familiar with the [SEMI Standards](https://www.semi.org/en/standards) like **E4**, **E5**, **E30**,
+The first area may be of interest to those working in the domain of automating Semiconductor Manufacturing facilities (via software).  If you are not familiar with the [SEMI&reg; Standards](https://www.semi.org/en/standards) like **E4**, **E5**, **E30**,
 **E37**, et al, these projects are probably not for you.
 {: .fs-5 .fw-300 }
 
