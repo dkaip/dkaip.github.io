@@ -20,7 +20,7 @@ Yes, I expect the performance to be less than that of an application written in 
 The current version of these projects are based on an older version of the Vulkan&reg; API. They should still work. The Vulkan&reg; standard is moving pretty quickly in terms of releasing updates and new features. Given this fact and the amount of work involved I cannot currently keep up with all of the new changes. I am working on some software that I can run against the specification to generate a current version of the interface automatically or at least with minimal manual intervention. This will hopefully make staying much more up to date possible.
 {: .fs-5 .fw-300 }
 
-Currently these projects, well the natives anyway, are only compiled for a Linux X86_64 environment. I currently do not have the ability to compile, generator code for, and test for other environments.
+Currently these projects, well the natives anyway, are only compiled for a Linux X86_64 environment. I currently do not have the ability to compile, generate code for, and test in other environments.
 {: .fs-5 .fw-300 }
 
 ## Table of contents
