@@ -5,14 +5,12 @@ nav_order: 6
 ---
 
 # C\# Projects
-
 {: .no_toc }
 
 These are some projects written in C\#.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
-
 {: .no_toc .text-delta }
 
 1. TOC
