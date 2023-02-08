@@ -31,5 +31,5 @@ This project is only really appropriate for those that are working primarily in 
 Find it here <a href="https://github.com/dkaip/CSharpSECSTools">https://github.com/dkaip/CSharpSECSTools</a>.
 {: .fs-5 .fw-300 }
 
-Find the documentation here <a href="https://github.com/dkaip/CSharpSECSTools/docs">https://github.com/dkaip/CSharpSECSTools/docs</a>.
+Find the documentation here <a href="https://github.com/dkaip/CSharpSECSTools/docs">https://github.com/dkaip/CSharpSECSTools/tree/master/docs</a>.
 {: .fs-5 .fw-300 }
