@@ -43,10 +43,10 @@ allowing it to be much closer to the holy grail of write for one API and run on 
 
 So, to answer the question of why I am writing this...In short, because almost all of the articles (and examples) I have found are written
 by people who know what they are talking about.  That sounds great, but, if you are not a person that already knows what they
-are talking about you are left in a position of climbing a near vertical learning curve and / or just on faith taking the
+are talking about you are left in a position of climbing a near vertical learning curve and / or just living on faith taking the
 examples, coding them up, and poking at them with changes until you just get something that &quot;works&quot;.  My hope in providing some
-information here is that you can start out with a better understanding of what is going on and ultimately product a better
-result for yourself.
+information here is that you can start out with a better understanding of what is going on and ultimately produce a better
+and possible result for yourself.
 {: .fs-5 .fw-300 }
 
 ## Let's Dive In
