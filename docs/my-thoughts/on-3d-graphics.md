@@ -15,5 +15,8 @@ parent: My Thoughts
 
 ---
 
+## Why am I writing this?
+
+
 This is a placeholder for my thoughts on 3D graphics.
 {: .fs-5 .fw-300 }
