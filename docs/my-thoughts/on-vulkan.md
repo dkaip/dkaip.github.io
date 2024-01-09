@@ -138,11 +138,12 @@ than that from the regular CPU on your computer.  Even if your CPU has 32+ cores
 {: .fs-5 .fw-300 }
 
 For example, let us say that you have defined the following array in C++.
+{: .fs-5 .fw-300 }
 ```cpp
 int32_t my_value_array[64];
 ```
 You have an array that contains 64 elements.  Now, lets say you want to initialize the
-array so that all of the element have the value of 1.  You could do something like
+array so that all of the elements have the value of 1.  You could do something like
 the following.
 {: .fs-5 .fw-300 }
 ```cpp
@@ -154,8 +155,9 @@ for(int i = 0; i < 64; i++>)
 // The array is now initialized
 ```
 This will do nicely.
+{: .fs-5 .fw-300 }
 
-However, you are thinking to yourself I have an incredible threading monster of a CPUin concept
+However, you are thinking to yourself I have an incredible threading monster of a CPU
 in my machine with 64 cores. I can initialize this array much more quickly by doing it this way.
 {: .fs-5 .fw-300 }
 ```cpp
@@ -186,10 +188,10 @@ pointer(counter), etc. Some threads will finish quickly while some may be interr
 Great, so what.  Well now, let's consider running this on the GPU instead of the CPU.
 If we run this on the GPU the code will, IN CONCEPT, look more like this.
 {: .fs-5 .fw-300 }
+```cpp
+my_value_array[0] = 1, my_value_array[1] = 1, ... my_value_array[62] = 1, my_value_array[63] = 1;
 ```
-my_value_array[0] = 1, my_value_array[1] = 1 ... my_value_array[62] = 1, my_value_array[63] = 1;
-```
-All of these instructions would execute at the same time on the available compute units.
+All of these instructions would execute at the same time on the available "compute units".
 There would only be one instruction pointer(counter) and all of the units will be on the same
 instruction at the same time.
 This is conceptual here, it does NOT actually work like this.  Perhaps a better way to say this
@@ -205,8 +207,8 @@ has a number of compute units within it.  Let's say in this case a GPU has 1024 
 (a shader core is a "CPU" that can execute shader code) and these
 shader cores are broken up into 16 compute units of 64 shader cores each.  In this situation the GPU
 might be an AMD&reg; device.  If it were an NVIDIA&reg; device it might have 32 compute units of
-32 shader cores each.  The compute units are special in that it is possible to have variables
-that are visible between each of the invocations / or "threads" of code running on the group of shader
+32 shader cores each.  The individual compute units are special in that it is possible to have variables
+that are visible (shared) between each of the invocations / or "threads" of code running on the group of shader
 cores within a single compute unit.  This group of shader cores within a compute unit is called a subgroup
 in the Vulkan&reg; vernacular.  In this case we are going to use a subgroup size of 64.
 {: .fs-5 .fw-300 }
@@ -241,13 +243,13 @@ Here is a snippet of the C++ code used in this example.
 cmdBuffer.dispatch(64, 1, 1);
 ```
 
-Here <code>64</code> work groups are submitted in the X coordinate (more on this later)
-to the compute shader.  One for each of the <code>64</code> elements of the array.
+Here 64 work groups are submitted in the X coordinate (more on this later)
+to the compute shader.  One for each of the 64 elements of the array.
 {: .fs-5 .fw-300 }
 
 If we were to actually run the code like this we would be wasting an <b>enormous</b> amount
 of processing capacity. In fact we would be running at only about 1.6% of capacity.  Why?
-This shader has specified that only 1 invocation be activated (<code>local_size_x = 1</code>)
+This shader has specified that only 1 invocation be created (<code>local_size_x = 1</code>)
 at a time.  We mentioned before that the subgroup size for this example was 64. In this
 example it means we will have 1 shader core running and 63 that are inactive because only
 one invocation was allowed. In general, you should have the number of invocations allowed
