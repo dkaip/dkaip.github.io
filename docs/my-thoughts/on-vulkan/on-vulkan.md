@@ -26,7 +26,7 @@ From Wikipedia:
 Vulkan&reg; is a low-overhead, cross-platform API, open standard for 3D graphics and computing. Vulkan&reg; targets high-performance real-time 3D graphics applications, such as video games, interactive media, and highly parallelized computing.
 {: .fs-5 .fw-300 }
 
-Wow, that is a great, concise, and pretty complete description of Vulkan&reg;.  Does it mean more to you than marketing blather?  If not, read on.
+Wow, that is a great, concise, and a pretty complete description of Vulkan&reg;.  Does it mean more to you than marketing blather?  If not, read on.
 {: .fs-5 .fw-300 }
 
 ## Why am I writing this?
@@ -44,7 +44,7 @@ Enter Vulkan&reg;, it was designed from the ground up with &quot;modern&quot; GP
 allowing it to be much closer to the holy grail of write for one API and run on all platforms.  Sigh, if only it were that simple.
 {: .fs-5 .fw-300 }
 
-So, to answer the question of why I am writing this...In short, because almost all of the articles (and examples) I have found are written
+So, to answer the question of why I am writing this; in short, because almost all of the articles (and examples) I have found are written
 by people who know what they are talking about.  That sounds great, but, if you are not a person that already knows what they
 are talking about you are left in a position of climbing a near vertical learning curve and / or just living on faith taking the
 examples, coding them up, and poking at them with changes until you just get something that &quot;works&quot;.  My hope in providing some
@@ -54,7 +54,8 @@ result for yourself.
 
 ## Let's Dive In
 
-It might help you, in the short term, to think of Vulkan&reg; as an abstraction of a type of 3D rendering hardware.
+It might help you, in the short term, to think of Vulkan&reg; as an abstraction of modern GPU hardware.  Keep in mind though, in using Vulkan&reg; to access this GPU hardware
+compute functionality will also be available in addition to the graphics functionality.
 In short, you create an application that uses this abstraction and then it should run on any hardware that is supported
 by Vulkan&reg;.  As I mentioned before, it would be nice if it were really that easy.  In simple applications it
 actually can be that simple.
@@ -102,12 +103,15 @@ submit the draw commands
 This is sort of the t
 {: .fs-5 .fw-300 }
 
-### Descriptor Sets
+### Descriptor Stuff
+
+
 
 A descriptor set is a collection (or set) of descriptors, how profound...I know.  In Vulkan&reg; you 
 cannot bind individual descriptors in a shader, you must bind to a descriptor set.
 You must create the descriptors as part of a 
 descriptor set.
+{: .fs-5 .fw-300 }
 
 You have memory that is either on the GPU or the GPU has access to it.
 You allocate it and put stuff in it
